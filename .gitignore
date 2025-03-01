@@ -395,6 +395,19 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Игнорировать папки bin/ и obj/
+bin/
+obj/
+
+# Игнорировать папку .vs/ (используется в Visual Studio)
+.vs/
+
+# Игнорировать временные файлы
+*.tmp
+*.log
+
+# Игнорировать файлы .DS_Store (используются в macOS)
+.DS_Store
 
 # JetBrains Rider
 *.sln.iml
